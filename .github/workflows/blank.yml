@@ -1,0 +1,14 @@
+            - nome: Construtor de APK Android
+  # Você pode fixar no commit exato ou na versão.
+  # usos: kevingopalan/action_android_build@48f8ff1d1aeb7cbe91406123fe25b7ff32bef57f
+  usos: kevingopalan/action_android_build@v1
+  com:
+    # Token secreto do Github para permitir a publicação automatizada do APK a ser lançado.
+    GITHUB_TOKEN: # opcional
+    # Token CI
+    CI_TOKEN: # opcional
+    # Nome do aplicativo
+    APP_NAME: # opcional
+    # Tipo de pacote
+    TYPEPACKAGE: # opcional
+          

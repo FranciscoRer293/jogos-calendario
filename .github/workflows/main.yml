@@ -1,0 +1,8 @@
+            - nome: Construir APK de lançamento do Android
+  # Você pode fixar no commit exato ou na versão.
+  # usos: VladDaniliuk/action-release-releaseapk@b7d927e4b936ec9c6e7852553d644a34b883ff4b
+  usos: VladDaniliuk/action-release-releaseapk@1.4.1
+  com:
+    # Token secreto do Github para permitir a publicação automatizada do APK a ser lançado.
+    GITHUB_TOKEN: # opcional
+          
